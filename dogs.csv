@@ -1,0 +1,145 @@
+Dog Breed,Sex,Vaccination Status,Location,Img Location,aage,ID
+,,,,,,
+Pug,M,Y,Bangalore,pug1.jpg,7,1
+,,,,,,
+German Shepherd,M,Y,Bangalore,german1.jpg,5,2
+,,,,,,
+Great Dane,M,N,Bangalore,gr8dane3.jpg,1,3
+,,,,,,
+Boxer,M,N,Bangalore,boxer2.jpg,3,4
+,,,,,,
+Dalmatian,F,N,Bangalore,dalmatian2.jpg,5,5
+,,,,,,
+Golden Retriever,F,N,Bangalore,gold1.jpg,11,6
+,,,,,,
+Tibetan Mastiff,M,N,Bangalore,mastiff1.jpg,1,7
+,,,,,,
+Labrador,F,N,Bangalore,lab3.jpg,1,8
+,,,,,,
+Dachshund,M,Y,Hyderabad,dachshund2.jpg,7,9
+,,,,,,
+Bull Dog,M,Y,Hyderabad,bull2.jpg,9,10
+,,,,,,
+Beagle,M,N,Hyderabad,beagle3.jpg,7,11
+,,,,,,
+Pit Bull,M,N,Hyderabad,pitbull3.jpg,9,12
+,,,,,,
+Saint Bernard,M,N,Hyderabad,bernard4.jpg,7,13
+,,,,,,
+Doberman,M,N,Hyderabad,doberman4.jpg,5,14
+,,,,,,
+Rottweiler,M,N,Hyderabad,rott4.jpg,1,15
+,,,,,,
+Saint Bernard,M,Y,Hyderabad,bernard1.jpg,3,16
+,,,,,,
+Bull Dog,F,N,Pune,bull3.jpg,9,17
+,,,,,,
+Beagle,M,Y,Pune,beagle4.jpg,9,18
+,,,,,,
+Saint Bernard,M,N,Pune,bernard2.jpg,5,19
+,,,,,,
+Pit Bull,F,N,Pune,pitbull2.jpg,1,20
+,,,,,,
+Labrador,F,Y,Pune,lab2.jpg,1,21
+,,,,,,
+Pug,M,N,Pune,pug4.jpg,7,22
+,,,,,,
+German Shepherd,F,Y,Pune,german4.jpg,1,23
+,,,,,,
+Dachshund,M,N,Pune,dachshund3.jpg,11,24
+,,,,,,
+Boxer,M,Y,Chennai,boxer3.jpg,3,25
+,,,,,,
+Saint Bernard,M,Y,Chennai,bernard3.jpg,5,26
+,,,,,,
+Doberman,F,Y,Chennai,doberman3.jpg,8,27
+,,,,,,
+Rottweiler,F,Y,Chennai,rott3.jpg,9,28
+,,,,,,
+Dalmatian,M,Y,Chennai,dalmatian4.jpg,7,29
+,,,,,,
+Tibetan Mastiff,M,N,Chennai,mastiff3.jpg,7,30
+,,,,,,
+Dachshund,F,Y,Chennai,dachshund4.jpg,7,31
+,,,,,,
+Boxer,F,N,Chennai,boxer4.jpg,1,32
+,,,,,,
+Golden Retriever,M,N,Mangalore,gold3.jpg,7,33
+,,,,,,
+Great Dane,F,N,Mangalore,gr8dane2.jpg,3,34
+,,,,,,
+Dalmatian,F,Y,Mangalore,dalmatian1.jpg,11,35
+,,,,,,
+Doberman,F,N,Mangalore,doberman2.jpg,1,36
+,,,,,,
+Rottweiler,M,N,Mangalore,rott2.jpg,7,37
+,,,,,,
+Dalmatian,M,N,Mangalore,dalmatian3.jpg,11,38
+,,,,,,
+Tibetan Mastiff,F,Y,Mangalore,mastiff2.jpg,5,39
+,,,,,,
+Golden Retriever,M,Y,Mangalore,gold2.jpg,1,40
+,,,,,,
+Pit Bull,M,N,Kolkata,pitbull4.jpeg,11,41
+,,,,,,
+Pit Bull,F,N,Kolkata,pitbull1.jpg,11,42
+,,,,,,
+Bull Dog,F,Y,Kolkata,bull4.jpg,9,43
+,,,,,,
+Labrador,M,N,Kolkata,lab1.jpg,1,44
+,,,,,,
+Pug,F,Y,Kolkata,pug3.jpg,1,45
+,,,,,,
+German Shepherd,M,N,Delhi,german3.jpg,3,46
+,,,,,,
+Great Dane,F,Y,Delhi,gr8dane1.jpg,7,47
+,,,,,,
+Tibetan Mastiff,F,Y,Delhi,mastiff4.jpg,1,48
+,,,,,,
+Dachshund,F,N,Delhi,dachshund1.jpg,7,49
+,,,,,,
+Bull Dog,F,N,Delhi,bull1.jpg,7,50
+,,,,,,
+Beagle,M,Y,Delhi,beagle2.jpg,11,51
+,,,,,,
+Golden Retriever,F,Y,Delhi,gold4.jpg,1,52
+,,,,,,
+Boxer,M,Y,Delhi,boxer1.jpg,7,53
+,,,,,,
+Doberman,F,Y,Mysore,doberman1.jpg,3,54
+,,,,,,
+Rottweiler,F,Y,Mysore,rott1.jpg,9,55
+,,,,,,
+Pug,M,N,Mysore,pug2.jpg,7,56
+,,,,,,
+German Shepherd,F,Y,Kolkata,german2.jpg,7,57
+,,,,,,
+Great Dane,F,Y,Kolkata,gr8dane4.jpg,1,58
+,,,,,,
+Beagle,M,N,Kolkata,beagle1.jpg,3,59
+,,,,,,
+Labrador,M,N,Mumbai,lab4.jpg,5,60
+,,,,,,
+Bull Mastiff,F,Y,Mumbai,bullm1.jpg,1,61
+,,,,,,
+Bull Mastiff,F,N,Mumbai,bullm2.jpg,3,62
+,,,,,,
+Bull Mastiff,M,N,Mumbai,bullm3.jpg,4,63
+,,,,,,
+Bull Mastiff,M,Y,Mumbai,bullm4.jpg,5,64
+,,,,,,
+Pomeranian,F,N,Mumbai,pom1.jpg,7,65
+,,,,,,
+Pomeranian,F,N,Mumbai,pom2.jpg,2,66
+,,,,,,
+Pomeranian,M,Y,Mumbai,pom3.jpg,5,67
+,,,,,,
+Pomeranian,M,N,Mysore,pom4.jpg,4,68
+,,,,,,
+Indie,F,N,Mysore,indie1.jpg,6,69
+,,,,,,
+Indie,M,Y,Mysore,indie2.jpg,4,70
+,,,,,,
+Indie,M,N,Mysore,indie3.jpg,3,71
+,,,,,,
+Indie,F,N,Mysore,indie4.jpg,0,72

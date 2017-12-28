@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato" />
+  <link rel="stylesheet" href="tempstore.css">
+</head>
+<body>
+  <script src="storescript.js"></script>
+
+  <img id="logo" src="adogtion11.jpg"></img>
+  <a href="Home.html"><img id="home" src="home.png"></img></a>
+  <a href="cart.php"><img id="cart" src="cart.png"></img></a>
+  <div class="navbar" id="shop">
+    <ul>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">About</a>
+        <div class="dropdown-content">
+          <a href="aboutus.html#p2">About Us</a>
+          <a href="contactus.html#p4">Contact Us</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Dog World</a>
+        <div class="dropdown-content">
+          <a href="aboutdogs.html#p1">About Dogs</a>
+          <a href="doghealth.html#p7">Dog Health</a>
+          <a href="tempstore.php?id=1&category=default">Dog Store</a>
+          <a class="active" href="tempshop.php?id=1&category=Nothing">Dog Shop</a>
+        </div>
+      </li>
+      <li><a href="news.html#p8">News</a></li>
+      <li><a  href="donate.php#donate">Donate</a></li>
+      <li><a href="login.php#login">Login</a></li>
+    </ul>
+  </div>
+<div class="background" id="opt1">
+<div class="bar">
+  <div class="foldout" style="float:right;">
+    <button class="foldbtn"><img src="hmb.png" height="40" width="40"></button>
+    <div class="fold-content">
+      <p>SORT BY:</p>
+      <a href="#">Food</a></br>
+      <a href="#">Apparels</a></br>
+      <a href="#">Accessories</a></br>
+      <a href="#">Collars</a></br>
+      <a href="#">Toys</a></br>
+      <a href="#">Medicines</a></br>
+      <!-- <div class="locout" >
+      <button class="loc">Location</button><img src="loc1.png" height="20" width="20">
+      <div class="locmenu">
+        <a href="#">Bangalore</a>
+        <a href="#">Mangalore</a>
+        <a href="#">Delhi</a>
+        <a href="#">Kolkata</a>
+        <a href="#">Chennai</a>
+        <a href="#">Mumbai</a>
+        <a href="#">Mysore  </a>
+      </div>
+    </div> -->
+    </div>
+  </div>
+    <p  class="heading">SHOP</p>
+</div>
+        <table>
+        <tr>
+        <td>
+        <div class="gallery">
+          <img id="img" src="images.jpg" alt="something" onclick=modal(this)>
+            <p class=desc1>Name</p>
+            <p class=desc1>Price</p>
+        </div>
+      </td>
+      <td>
+        <div class="gallery">
+          <img src="images.jpg" alt="something" onclick=modal(this)>
+          <p class=desc1>Name</p>
+          <p class=desc1>Price</p>
+        </div>
+      </td>
+      <td>
+        <div class="gallery">
+          <img src="images.jpg" alt="something" onclick=modal(this)>
+          <p class=desc1>Name</p>
+          <p class=desc1>Price</p>
+      </td>
+      <td>
+        <div class="gallery">
+          <img src="images.jpg" alt="something" onclick=modal(this)>
+          <p class=desc1>Name</p>
+          <p class=desc1>Price</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+        <div class="gallery">
+          <img src="images.jpg" alt="something" onclick=modal(this)>
+          <p class=desc1>Name</p>
+          <p class=desc1>Price</p>
+      </td>
+      <td>
+        <div class="gallery">
+          <img src="images.jpg" alt="something" onclick=modal(this)>
+          <p class=desc1>Name</p>
+          <p class=desc1>Price</p>
+      </td>
+      <td>
+        <div class="gallery">
+          <img src="images.jpg" alt="something" onclick=modal(this)>
+          <p class=desc1>Name</p>
+          <p class=desc1>Price</p>
+        </div>
+      </td>
+      <td>
+        <div class="gallery">
+          <img src="images.jpg" alt="something" onclick=modal(this)>
+          <p class=desc1>Name</p>
+          <p class=desc1>Price</p>
+        </div>
+      </td>
+        <!-- The Modal -->
+      </tr>
+      <tr>
+        <td colspan="8">
+        <div class="pagination">
+        <a id="l" href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">&raquo;</a>
+      </div>
+
+      </td>
+      </tr>
+      </table>
+  </div>
+
+</body>
+</html>

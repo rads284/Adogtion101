@@ -1,0 +1,375 @@
+table{
+  margin-left:5%;
+  margin-right: 15%;
+  padding: 0;
+}
+body{
+  margin:0;
+  padding:0;
+
+}
+#cover{
+    height:20%;
+    position:relative;
+    background:   url(adogtion11.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#logo{
+  max-width:100%;
+  max-height:40%;
+  margin: 0;
+}
+div.background {
+  background:url(wall.jpg);
+  background-size:100%;
+  height:auto;
+  width:100%;
+  position:absolute;
+  margin: 0;
+  padding: 0;
+  background-repeat: repeat-y;
+  background-attachment:scroll ;
+}
+/*div.transbox {
+  margin:auto;
+  padding:inherit;
+  background-color: #ffffff;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier
+  height:auto;
+  width:80%;
+  position: relative;
+  align-items: center;
+}*/
+.foldbtn {
+    background: none;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-right:auto;
+}
+
+.foldout {
+    position: relative;
+    display: inline-block;
+}
+
+.fold-content {
+    display: none;
+    position: absolute;
+    right:10%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.fold-content>a ,.fold-content>p{
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.fold-content>a:hover {background-color: #f1f1f1}
+
+.foldout:hover .fold-content {
+    display: block;
+}
+
+.foldout:hover .dropbtn {
+    background-color:none;
+}
+
+.loc {
+    color: black;
+    background-color: white;
+    text-align:left;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    width:inherit;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+.locout {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    float: none;
+}
+
+.locmenu {
+    display: none;
+    position: absolute;
+    right:10%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.locmenu>a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.locmenu>a:hover {background-color: #f1f1f1}
+
+.locout:hover .locmenu {
+    display: block;
+}
+
+.locout:hover .dropbtn {
+    background-color:none;
+}
+
+p.text {
+  margin: 0;
+  padding: 5%;
+  font-weight: bold;
+  color: #000000;
+  line-height: 40px;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 18px;
+  text-align: justify;
+}
+#navbar{
+  margin: 0;
+}
+.navbar>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar>ul>li {
+    float: left;
+    width: 20%;
+    align-items: center;
+    text-align: center;
+}
+
+.dropdown>a,.dropdown-content>a,.navbar>ul>li>a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Lato;
+
+}
+
+li:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+    z-index: 1;
+      width:20%;
+}
+
+.dropdown-content a {
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:center;
+
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.dropdown-content a:hover {background-color: #e0e0e0;
+color:black;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.heading{
+  font-family: Lato;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 0;
+  /*text-shadow: 0.7em 0.7em 0 rgba(0, 0, 0, 0.1);*/
+  -webkit-text-stroke: 2.0px white;
+}
+div.gallery{
+  margin:10px;
+  padding: 1%;
+  border:8px solid white;
+  float:left;
+  width: 297px;
+  height:329px;
+  background-color:white;
+  cursor:pointer;
+  object-fit: cover;
+
+}
+
+div.gallery:hover{
+  border:8px solid LightSlateGrey;
+}
+
+div.gallery img{
+  width:275px;
+  height:183px;
+  height:auto;
+}
+
+div.gallery img:hover{
+  opacity:0.8;
+}
+p.desc1{
+  padding:2%;
+  margin: 0;
+  text-align:left;
+  background-color:white;
+  color:black;
+  font-family: Lato;
+  font-weight: bold;
+
+}
+
+p.desc2{
+  padding:2%;
+  margin: 0;
+  text-align: right;
+  background-color:white;
+  color:black;
+  font-family: Lato;
+  font-weight: bold;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes zoom {
+    from {transform: scale(0.1)}
+    to {transform: scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.pagination{
+  display:inline-block;
+}
+.center{
+  text-align:center;
+}
+
+.pagination a{
+  color:white;
+  float:left;
+  margin:0;
+  padding:10px;
+  text-align:center;
+  transition: background-color .3s;
+}
+.pagination a:hover:not(.active) {background-color: #ccd;}
+.pagination a:hover{
+  background-color:blue;
+  cursor:pointer;
+}
